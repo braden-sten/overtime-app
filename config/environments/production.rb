@@ -13,7 +13,7 @@ Rails.application.configure do
   config.log_formatter = ::Logger::Formatter.new
   config.active_record.dump_schema_after_migration = false
   config.serve_static_assets = true
-  config.action_mailer.default_url_options = { :host => 'braden-overtime.herokuapp.com'
+  config.action_mailer.default_url_options = { :host => 'braden-overtime.herokuapp.com' }
 
   if ENV["RAILS_LOG_TO_STDOUT"].present?
     logger           = ActiveSupport::Logger.new(STDOUT)
